@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a9b3b6e1-48b0-4a81-abd7-5d75adbfa894}">
+		<property name="assetPath">
+			<value>bye bye there.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>338.43526077097505</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3ec376c7-9dab-4e28-9892-9388771afac6}</destination>
+		</relationship>
+	</object>
+</objects>

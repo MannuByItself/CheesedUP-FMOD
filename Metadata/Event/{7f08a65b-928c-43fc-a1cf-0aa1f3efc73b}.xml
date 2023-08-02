@@ -64,9 +64,9 @@
 	<object class="MarkerTrack" id="{f4eee416-155d-4a34-94a3-56e2aca9417f}" />
 	<object class="GroupTrack" id="{d6bdc661-ebbf-47f6-933f-9737c8ddd957}">
 		<relationship name="modules">
-			<destination>{5df5c0a8-f264-473d-8bdb-85afc623cf65}</destination>
 			<destination>{a7786eef-3566-440d-99e2-2bb4ef836d43}</destination>
 			<destination>{97d2a1ef-0a6d-41a9-8900-962e34c4b2b8}</destination>
+			<destination>{ef98cdc1-8045-45cd-8537-023877cdcd66}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ba9b0e65-249b-4c72-99a4-ec97ab42722a}</destination>
@@ -74,7 +74,7 @@
 	</object>
 	<object class="Timeline" id="{7155cebd-e3a3-484f-822a-03bcc3db88d7}">
 		<relationship name="modules">
-			<destination>{5df5c0a8-f264-473d-8bdb-85afc623cf65}</destination>
+			<destination>{ef98cdc1-8045-45cd-8537-023877cdcd66}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{2fbe9374-d614-4e57-9ee8-6e891bbf509a}</destination>
@@ -110,17 +110,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2e5f68b1-bc25-4cab-9cfb-f96a7a8d3528}" />
-	<object class="SingleSound" id="{5df5c0a8-f264-473d-8bdb-85afc623cf65}">
-		<property name="length">
-			<value>110.98938775510206</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.23999999999999999</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{2b035c14-a6bd-4295-8a0c-a45ea5893c80}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionSourceSound" id="{a7786eef-3566-440d-99e2-2bb4ef836d43}">
 		<property name="length">
 			<value>5</value>
@@ -133,6 +122,14 @@
 		<property name="length">
 			<value>5</value>
 		</property>
+	</object>
+	<object class="SingleSound" id="{ef98cdc1-8045-45cd-8537-023877cdcd66}">
+		<property name="length">
+			<value>16.55172335600907</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{985df884-ec5b-456c-ac16-9cd66912c33f}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ba9b0e65-249b-4c72-99a4-ec97ab42722a}">
 		<property name="volume">
@@ -156,7 +153,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>107.53</value>
+			<value>16.55172335600907</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{7155cebd-e3a3-484f-822a-03bcc3db88d7}</destination>
